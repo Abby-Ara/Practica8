@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Matemáticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="calc" name="calc">
+        <!--Sumar-->
+        <label for="">Numero 1</label>
+        <input type="number" id="txtnumero1" name="txtnumero1" value="">
+        <label for="">Numero 2</label>
+        <input type="number" id="txtnumero2" name="txtnumero2" value="">
+        <br>
+        <!--Botón-->
+        <input type="button" id="btn-enviar" value="Sumar" onclick="sumar()">
+        <input type="text" id="resultado" value="0">
+        <br>
+
+        <!--Restar-->
+        <label for="">Numero 1</label>
+        <input type="number" id="txtnumero3" name="txtnumero3" value="">
+        <label for="">Numero 2</label>
+        <input type="number" id="txtnumero4" name="txtnumero4" value="">
+        <br>
+        <!--Botón-->
+        <input type="button" id="btn-enviar" value="Restar" onclick="restar()">
+        <input type="text" id="resultadoresta" value="0">
+        <br>
+
+        <!--Multiplicar-->
+        <label for="">Numero 1</label>
+        <input type="number" id="txtnumero5" name="txtnumero5" value="">
+        <label for="">Numero 2</label>
+        <input type="number" id="txtnumero6" name="txtnumero6" value="">
+        <br>
+        <!--Botón-->
+        <input type="button" id="btn-enviar" value="Multiplicar" onclick="multiplicar()">
+        <input type="text" id="resultadomulti" value="0">
+        <br>
+
+        <!--División-->
+        <label for="">Numero 1</label>
+        <input type="number" id="txtnumero7" name="txtnumero7" value="">
+        <label for="">Numero 2</label>
+        <input type="number" id="txtnumero8" name="txtnumero8" value="">
+        <br>
+        <!--Botón-->
+        <input type="button" id="btn-enviar" value="Dividir" onclick="dividir()">
+        <input type="text" id="resultadodiv" value="0">
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
