@@ -1,4 +1,4 @@
-alert ("hola")
+alert ("hola!")
 function sumar(){
     var num1;
     num1= document.calc.txtnumero1.value;
